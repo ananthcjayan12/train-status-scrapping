@@ -28,9 +28,11 @@ ENV PYTHONUNBUFFERED=1
 ENV DISPLAY=:99
 ENV CHROME_BIN=/usr/bin/chromium
 ENV CHROMEDRIVER_PATH=/usr/bin/chromedriver
+ENV PYTHONPATH=/app/src
 
-# Expose port
+# Expose ports
 EXPOSE 5001
+EXPOSE 5555
 
 # Run the application
 CMD ["python", "src/app.py"] 
