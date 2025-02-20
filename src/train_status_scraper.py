@@ -44,20 +44,23 @@ class TrainStatusScraper:
         """Set up Chrome webdriver with appropriate options"""
         try:
             chrome_options = Options()
-            # chrome_options.add_argument("--headless=new")
+            chrome_options.add_argument("--headless=new")
             chrome_options.add_argument("--no-sandbox")
             chrome_options.add_argument("--disable-dev-shm-usage")
             chrome_options.add_argument("--window-size=1920,1080")
-            chrome_options.add_argument("--remote-debugging-port=9222")
             chrome_options.add_argument("--disable-notifications")
             chrome_options.add_argument("--disable-popup-blocking")
+            chrome_options.add_argument("--disable-gpu")
+            chrome_options.add_argument("--disable-software-rasterizer")
             
-            # Add additional options for M1/M2 Mac
-            if platform.system() == 'Darwin' and platform.machine() == 'arm64':
-                chrome_options.add_argument("--disable-gpu")
-                chrome_options.add_argument("--disable-software-rasterizer")
+            # Use environment variables for binary paths
+            chrome_binary = os.getenv('CHROME_BIN', '/usr/bin/chromium')
+            chromedriver_path = os.getenv('CHROMEDRIVER_PATH', '/usr/bin/chromedriver')
             
-            self.driver = webdriver.Chrome(options=chrome_options)
+            chrome_options.binary_location = chrome_binary
+            service = Service(executable_path=chromedriver_path)
+            
+            self.driver = webdriver.Chrome(service=service, options=chrome_options)
             self.driver.implicitly_wait(20)  # Increased wait time
             self.logger.info("WebDriver setup completed successfully")
         except Exception as e:
@@ -90,12 +93,13 @@ class TrainStatusScraper:
                 self.logger.warning(f"Attempt {attempt + 1} failed, retrying...")
                 time.sleep(2)  # Wait before retry
 
-    def enter_train_number(self, train_number: str) -> bool:
+    def enter_train_number(self, train_number: str, day_selection: int) -> bool:
         """
         Enter train number and initiate search
         
         Args:
             train_number: Train number to search
+            day_selection: Day selection (1 for today, 2 for yesterday, etc.)
             
         Returns:
             bool: True if successful, False otherwise
@@ -136,12 +140,33 @@ class TrainStatusScraper:
             # Wait for typeahead suggestions to settle
             time.sleep(2)
 
-            # Find and click the check status button using its ID
-            self.logger.info("Waiting for check status button")
-            check_status_btn = self.driver.find_element(By.ID, "getRunnungStatus")
-            self.logger.info("Found check status button")
-            check_status_btn.click()
-            self.logger.info("Clicked check status button")
+            # Select the date before clicking submit
+
+            # Find and click the submit button
+            self.logger.info("Waiting for submit button")
+            submit_btn = self.driver.find_element(By.ID, "getRunnungStatus")
+            submit_btn.click()
+            self.logger.info("Clicked submit button")
+
+
+            if not self.select_date(day_selection):
+                self.logger.warning("Could not select date, proceeding with default date")
+            else:
+                self.logger.info("Date selected successfully")
+                time.sleep(5)
+                # Find and click the submit button that appears after date selection
+                try:
+                    submit_after_date = self.wait_and_find_element(
+                        By.CSS_SELECTOR,
+                        "button#submitBtn.btn.btn-success.btn-success--select",
+                        timeout=10
+                    )
+                    submit_after_date.click()
+                    self.logger.info("Clicked submit button after date selection")
+                except Exception as e:
+                    self.logger.warning(f"Could not click submit button after date selection: {str(e)}")
+                # Wait for a moment after date selection
+    
             
             # Wait for results to load
             self.wait_and_find_element(
@@ -225,13 +250,9 @@ class TrainStatusScraper:
             # Wait for page to load completely
             time.sleep(5)  # Give extra time for page to load
             
-            # Enter train number and check status
-            if not self.enter_train_number(train_number):
+            # Enter train number, select date and check status
+            if not self.enter_train_number(train_number, day_selection):
                 raise Exception("Failed to enter train number and get status")
-
-            # Select the date
-            if not self.select_date(day_selection):
-                self.logger.warning("Could not select date, proceeding with default date")
 
             # Extract current status information
             try:
@@ -272,7 +293,7 @@ class TrainStatusScraper:
                     "train_number": train_number,
                     "current_status": {
                         "last_station": departed_station,
-                        "next_station": next_station,
+                        "delay_status": delay_status,
                         "last_updated": update_info,
                         "delay_status": delay_status
                     }

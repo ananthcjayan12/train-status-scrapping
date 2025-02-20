@@ -323,3 +323,363 @@ Stacktrace:
 2025-02-20 13:02:39,277 - INFO - Clicked check status button
 2025-02-20 13:02:39,353 - INFO - Selected date: 20-Feb-2025
 2025-02-20 13:02:39,546 - INFO - WebDriver cleaned up successfully
+2025-02-20 13:05:41,751 - INFO - WebDriver setup completed successfully
+2025-02-20 13:05:44,234 - INFO - Checking status for train number: 16308
+2025-02-20 13:05:54,253 - INFO - Entered train number: 16308
+2025-02-20 13:06:37,350 - WARNING - Attempt 1 failed, retrying...
+2025-02-20 13:07:01,349 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10681e850>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f8ff9abeb4b8051bf279aab10f317d3f
+2025-02-20 13:07:01,351 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10681e350>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f8ff9abeb4b8051bf279aab10f317d3f
+2025-02-20 13:07:01,353 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1067aac40>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f8ff9abeb4b8051bf279aab10f317d3f
+2025-02-20 13:07:01,394 - INFO - WebDriver cleaned up successfully
+2025-02-20 13:07:04,033 - INFO - WebDriver setup completed successfully
+2025-02-20 13:07:05,675 - INFO - Checking status for train number: 16308
+2025-02-20 13:07:15,672 - INFO - Entered train number: 16308
+2025-02-20 13:07:17,674 - INFO - Waiting for submit button
+2025-02-20 13:07:38,230 - WARNING - Attempt 1 failed, retrying...
+2025-02-20 13:08:00,803 - WARNING - Attempt 2 failed, retrying...
+2025-02-20 13:08:13,449 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10601e490>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c4a1c477ef3770aa8373a2eb3bcfc927
+2025-02-20 13:08:13,450 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10601e350>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c4a1c477ef3770aa8373a2eb3bcfc927
+2025-02-20 13:08:13,450 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105faac40>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/c4a1c477ef3770aa8373a2eb3bcfc927
+2025-02-20 13:08:13,481 - INFO - WebDriver cleaned up successfully
+2025-02-20 13:08:16,233 - INFO - WebDriver setup completed successfully
+2025-02-20 13:08:17,221 - INFO - Checking status for train number: 16308
+2025-02-20 13:08:28,081 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/7a035fbe7d84476a00f7fed844b6c117
+2025-02-20 13:08:28,090 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10281e490>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/7a035fbe7d84476a00f7fed844b6c117
+2025-02-20 13:08:28,094 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10281e5d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/7a035fbe7d84476a00f7fed844b6c117
+2025-02-20 13:08:28,117 - INFO - WebDriver cleaned up successfully
+2025-02-20 13:08:39,867 - INFO - WebDriver setup completed successfully
+2025-02-20 13:08:40,958 - INFO - Checking status for train number: 16308
+2025-02-20 13:08:50,807 - INFO - Entered train number: 16308
+2025-02-20 13:08:52,809 - INFO - Waiting for submit button
+2025-02-20 13:08:54,316 - INFO - Clicked submit button
+2025-02-20 13:09:04,379 - INFO - Selected date: 20-Feb-2025
+2025-02-20 13:09:04,380 - INFO - Date selected successfully
+2025-02-20 13:09:05,592 - INFO - WebDriver cleaned up successfully
+2025-02-20 13:10:02,170 - INFO - WebDriver setup completed successfully
+2025-02-20 13:10:04,425 - INFO - Checking status for train number: 16308
+2025-02-20 13:10:14,628 - INFO - Entered train number: 16308
+2025-02-20 13:10:16,634 - INFO - Waiting for submit button
+2025-02-20 13:10:17,398 - INFO - Clicked submit button
+2025-02-20 13:10:27,470 - INFO - Selected date: 18-Feb-2025
+2025-02-20 13:10:27,470 - INFO - Date selected successfully
+2025-02-20 13:10:28,714 - INFO - WebDriver cleaned up successfully
+2025-02-20 13:11:47,337 - INFO - WebDriver setup completed successfully
+2025-02-20 13:11:51,018 - INFO - Checking status for train number: 16345
+2025-02-20 13:12:00,895 - INFO - Entered train number: 16345
+2025-02-20 13:12:02,900 - INFO - Waiting for submit button
+2025-02-20 13:12:03,863 - INFO - Clicked submit button
+2025-02-20 13:12:13,925 - INFO - Selected date: 20-Feb-2025
+2025-02-20 13:12:13,925 - INFO - Date selected successfully
+2025-02-20 13:12:19,149 - INFO - WebDriver cleaned up successfully
+2025-02-20 13:12:27,922 - INFO - WebDriver setup completed successfully
+2025-02-20 13:12:29,680 - INFO - Checking status for train number: 16345
+2025-02-20 13:12:30,316 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/52c63d773fd4d433a4f3d2c5af90fafd
+2025-02-20 13:12:30,324 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10415e850>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/52c63d773fd4d433a4f3d2c5af90fafd
+2025-02-20 13:12:30,325 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10415e350>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/52c63d773fd4d433a4f3d2c5af90fafd
+2025-02-20 13:12:30,350 - INFO - WebDriver cleaned up successfully
+2025-02-20 13:12:35,104 - INFO - WebDriver setup completed successfully
+2025-02-20 13:12:36,343 - INFO - Checking status for train number: 16345
+2025-02-20 13:12:46,358 - INFO - Entered train number: 16345
+2025-02-20 13:12:48,363 - INFO - Waiting for submit button
+2025-02-20 13:12:49,380 - INFO - Clicked submit button
+2025-02-20 13:12:59,441 - INFO - Selected date: 19-Feb-2025
+2025-02-20 13:12:59,442 - INFO - Date selected successfully
+2025-02-20 13:13:04,646 - INFO - WebDriver cleaned up successfully
+2025-02-20 13:15:27,926 - INFO - WebDriver setup completed successfully
+2025-02-20 13:15:29,841 - INFO - Checking status for train number: 16345
+2025-02-20 13:15:40,158 - INFO - Entered train number: 16345
+2025-02-20 13:15:42,164 - INFO - Waiting for submit button
+2025-02-20 13:15:42,826 - INFO - Clicked submit button
+2025-02-20 13:15:52,898 - INFO - Selected date: 19-Feb-2025
+2025-02-20 13:15:52,898 - INFO - Date selected successfully
+2025-02-20 13:15:58,948 - INFO - Clicked submit button after date selection
+2025-02-20 13:15:59,167 - INFO - WebDriver cleaned up successfully
+2025-02-20 13:17:01,753 - INFO - WebDriver setup completed successfully
+2025-02-20 13:17:03,013 - INFO - Checking status for train number: 16345
+2025-02-20 13:17:12,713 - INFO - Entered train number: 16345
+2025-02-20 13:17:14,718 - INFO - Waiting for submit button
+2025-02-20 13:17:15,612 - INFO - Clicked submit button
+2025-02-20 13:17:15,660 - INFO - Selected date: 19-Feb-2025
+2025-02-20 13:17:15,660 - INFO - Date selected successfully
+2025-02-20 13:17:21,548 - INFO - Clicked submit button after date selection
+2025-02-20 13:17:21,715 - INFO - WebDriver cleaned up successfully
+2025-02-20 13:23:35,484 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.31.209:5001
+2025-02-20 13:23:35,484 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 13:23:51,505 - INFO - WebDriver setup completed successfully
+2025-02-20 13:23:51,505 - INFO - Scraper initialized successfully
+2025-02-20 13:23:51,584 - INFO - WebDriver cleaned up successfully
+2025-02-20 13:23:51,585 - INFO - Scraper cleaned up successfully
+2025-02-20 13:23:51,585 - INFO - 192.168.31.209 - - [20/Feb/2025 13:23:51] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-20 13:23:51,924 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106ad4910>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/141acd8d3a373a09b78159b1b4eee9f5
+2025-02-20 13:23:51,925 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106ad4b90>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/141acd8d3a373a09b78159b1b4eee9f5
+2025-02-20 13:23:51,926 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106a9d6e0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/141acd8d3a373a09b78159b1b4eee9f5
+2025-02-20 13:23:51,928 - INFO - WebDriver cleaned up successfully
+2025-02-20 13:23:51,928 - INFO - Scraper cleaned up successfully
+2025-02-20 13:23:51,928 - INFO - 192.168.31.209 - - [20/Feb/2025 13:23:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-20 13:24:20,351 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106a83e30>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/141acd8d3a373a09b78159b1b4eee9f5/url
+2025-02-20 13:24:20,352 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106adc9e0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/141acd8d3a373a09b78159b1b4eee9f5/url
+2025-02-20 13:24:20,354 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106adcd10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/141acd8d3a373a09b78159b1b4eee9f5/url
+2025-02-20 13:24:20,354 - ERROR - Error getting train status: HTTPConnectionPool(host='localhost', port=61037): Max retries exceeded with url: /session/141acd8d3a373a09b78159b1b4eee9f5/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106add040>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-02-20 13:24:20,355 - ERROR - Error processing request: HTTPConnectionPool(host='localhost', port=61037): Max retries exceeded with url: /session/141acd8d3a373a09b78159b1b4eee9f5/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106add040>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-02-20 13:24:20,356 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106add480>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/141acd8d3a373a09b78159b1b4eee9f5
+2025-02-20 13:24:20,356 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106add6a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/141acd8d3a373a09b78159b1b4eee9f5
+2025-02-20 13:24:20,357 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106add8c0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/141acd8d3a373a09b78159b1b4eee9f5
+2025-02-20 13:24:20,359 - INFO - WebDriver cleaned up successfully
+2025-02-20 13:24:20,359 - INFO - Scraper cleaned up successfully
+2025-02-20 13:24:20,359 - INFO - 127.0.0.1 - - [20/Feb/2025 13:24:20] "[35m[1mGET /train-status?train_number=16308&day=1 HTTP/1.1[0m" 500 -
+2025-02-20 13:24:20,808 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106adde10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/141acd8d3a373a09b78159b1b4eee9f5
+2025-02-20 13:24:20,809 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106ade140>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/141acd8d3a373a09b78159b1b4eee9f5
+2025-02-20 13:24:20,809 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106ade360>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/141acd8d3a373a09b78159b1b4eee9f5
+2025-02-20 13:24:20,810 - INFO - WebDriver cleaned up successfully
+2025-02-20 13:24:20,810 - INFO - Scraper cleaned up successfully
+2025-02-20 13:24:20,811 - INFO - 127.0.0.1 - - [20/Feb/2025 13:24:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-20 13:24:33,033 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106ade8b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/141acd8d3a373a09b78159b1b4eee9f5/url
+2025-02-20 13:24:33,034 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106adebe0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/141acd8d3a373a09b78159b1b4eee9f5/url
+2025-02-20 13:24:33,035 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106adee00>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/141acd8d3a373a09b78159b1b4eee9f5/url
+2025-02-20 13:24:33,035 - ERROR - Error getting train status: HTTPConnectionPool(host='localhost', port=61037): Max retries exceeded with url: /session/141acd8d3a373a09b78159b1b4eee9f5/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106adf020>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-02-20 13:24:33,035 - ERROR - Error processing request: HTTPConnectionPool(host='localhost', port=61037): Max retries exceeded with url: /session/141acd8d3a373a09b78159b1b4eee9f5/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106adf020>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-02-20 13:24:33,036 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106adf350>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/141acd8d3a373a09b78159b1b4eee9f5
+2025-02-20 13:24:33,038 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106adf570>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/141acd8d3a373a09b78159b1b4eee9f5
+2025-02-20 13:24:33,039 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106a0ff00>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/141acd8d3a373a09b78159b1b4eee9f5
+2025-02-20 13:24:33,042 - INFO - WebDriver cleaned up successfully
+2025-02-20 13:24:33,042 - INFO - Scraper cleaned up successfully
+2025-02-20 13:24:33,042 - INFO - 127.0.0.1 - - [20/Feb/2025 13:24:33] "[35m[1mGET /train-status?train_number=16308&day=1 HTTP/1.1[0m" 500 -
+2025-02-20 13:27:59,564 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.31.209:5001
+2025-02-20 13:27:59,565 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 13:28:02,518 - ERROR - Failed to setup WebDriver: Message: Unable to locate or obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-02-20 13:28:02,519 - ERROR - Failed to initialize scraper: Message: Unable to locate or obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-02-20 13:28:02,519 - ERROR - Exception on /train-status [GET]
+Traceback (most recent call last):
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/env/lib/python3.13/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/env/lib/python3.13/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/env/lib/python3.13/site-packages/flask/app.py", line 868, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/env/lib/python3.13/site-packages/flask/app.py", line 1243, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/src/app.py", line 36, in before_request
+    initialize_scraper()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/src/app.py", line 27, in initialize_scraper
+    scraper = TrainStatusScraper()
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/src/train_status_scraper.py", line 41, in __init__
+    self.setup_driver()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/src/train_status_scraper.py", line 68, in setup_driver
+    self.driver = webdriver.Chrome(service=service, options=chrome_options)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/env/lib/python3.13/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/env/lib/python3.13/site-packages/selenium/webdriver/chromium/webdriver.py", line 49, in __init__
+    self.service.path = DriverFinder.get_path(self.service, options)
+                        ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/env/lib/python3.13/site-packages/selenium/webdriver/common/driver_finder.py", line 44, in get_path
+    raise NoSuchDriverException(f"Unable to locate or obtain driver for {options.capabilities['browserName']}")
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to locate or obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-02-20 13:28:02,538 - INFO - 127.0.0.1 - - [20/Feb/2025 13:28:02] "[35m[1mGET /train-status?train_number=16308&day=1 HTTP/1.1[0m" 500 -
+2025-02-20 13:28:55,263 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.31.209:5001
+2025-02-20 13:28:55,263 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 13:29:01,135 - ERROR - Failed to setup WebDriver: Message: Unable to locate or obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-02-20 13:29:01,135 - ERROR - Failed to initialize scraper: Message: Unable to locate or obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-02-20 13:29:01,135 - ERROR - Exception on /train-status [GET]
+Traceback (most recent call last):
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/env/lib/python3.13/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/env/lib/python3.13/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/env/lib/python3.13/site-packages/flask/app.py", line 868, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/env/lib/python3.13/site-packages/flask/app.py", line 1243, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/src/app.py", line 36, in before_request
+    initialize_scraper()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/src/app.py", line 27, in initialize_scraper
+    scraper = TrainStatusScraper()
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/src/train_status_scraper.py", line 41, in __init__
+    self.setup_driver()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/src/train_status_scraper.py", line 68, in setup_driver
+    self.driver = webdriver.Chrome(service=service, options=chrome_options)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/env/lib/python3.13/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/env/lib/python3.13/site-packages/selenium/webdriver/chromium/webdriver.py", line 49, in __init__
+    self.service.path = DriverFinder.get_path(self.service, options)
+                        ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/env/lib/python3.13/site-packages/selenium/webdriver/common/driver_finder.py", line 44, in get_path
+    raise NoSuchDriverException(f"Unable to locate or obtain driver for {options.capabilities['browserName']}")
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to locate or obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-02-20 13:29:01,144 - INFO - 127.0.0.1 - - [20/Feb/2025 13:29:01] "[35m[1mGET /train-status?train_number=16308&day=1 HTTP/1.1[0m" 500 -
+2025-02-20 13:30:17,489 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.31.209:5001
+2025-02-20 13:30:17,489 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 13:30:29,153 - ERROR - Failed to setup WebDriver: Message: Service /opt/homebrew/bin/chromedriver unexpectedly exited. Status code was: -9
+
+2025-02-20 13:30:29,154 - ERROR - Failed to initialize scraper: Message: Service /opt/homebrew/bin/chromedriver unexpectedly exited. Status code was: -9
+
+2025-02-20 13:30:29,155 - ERROR - Exception on /train-status [GET]
+Traceback (most recent call last):
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/env/lib/python3.13/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/env/lib/python3.13/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/env/lib/python3.13/site-packages/flask/app.py", line 868, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/env/lib/python3.13/site-packages/flask/app.py", line 1243, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/src/app.py", line 36, in before_request
+    initialize_scraper()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/src/app.py", line 27, in initialize_scraper
+    scraper = TrainStatusScraper()
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/src/train_status_scraper.py", line 41, in __init__
+    self.setup_driver()
+    ~~~~~~~~~~~~~~~~~^^
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/src/train_status_scraper.py", line 67, in setup_driver
+    self.driver = webdriver.Chrome(service=service, options=chrome_options)
+                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/env/lib/python3.13/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/env/lib/python3.13/site-packages/selenium/webdriver/chromium/webdriver.py", line 50, in __init__
+    self.service.start()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/env/lib/python3.13/site-packages/selenium/webdriver/common/service.py", line 102, in start
+    self.assert_process_still_running()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/ananthu/Desktop/new_repos/train-status-scrapping/env/lib/python3.13/site-packages/selenium/webdriver/common/service.py", line 115, in assert_process_still_running
+    raise WebDriverException(f"Service {self._path} unexpectedly exited. Status code was: {return_code}")
+selenium.common.exceptions.WebDriverException: Message: Service /opt/homebrew/bin/chromedriver unexpectedly exited. Status code was: -9
+
+2025-02-20 13:30:29,165 - INFO - 127.0.0.1 - - [20/Feb/2025 13:30:29] "[35m[1mGET /train-status?train_number=16308&day=1 HTTP/1.1[0m" 500 -
+2025-02-20 08:17:44,869 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.24.0.2:5001
+2025-02-20 08:17:44,869 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 08:17:58,860 - INFO - WebDriver setup completed successfully
+2025-02-20 08:17:58,862 - INFO - Scraper initialized successfully
+2025-02-20 08:17:58,924 - INFO - WebDriver cleaned up successfully
+2025-02-20 08:17:58,924 - INFO - Scraper cleaned up successfully
+2025-02-20 08:17:58,929 - INFO - 192.168.65.1 - - [20/Feb/2025 08:17:58] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-20 08:17:58,941 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa77df810>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/659aaf5a1ac3e6bd9b9ca87066d524f2
+2025-02-20 08:17:58,943 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa721ae90>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/659aaf5a1ac3e6bd9b9ca87066d524f2
+2025-02-20 08:17:58,944 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa71d1e50>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/659aaf5a1ac3e6bd9b9ca87066d524f2
+2025-02-20 08:17:58,946 - INFO - WebDriver cleaned up successfully
+2025-02-20 08:17:58,946 - INFO - Scraper cleaned up successfully
+2025-02-20 08:17:58,946 - INFO - 192.168.65.1 - - [20/Feb/2025 08:17:58] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-20 08:17:59,197 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa71c0e50>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/659aaf5a1ac3e6bd9b9ca87066d524f2
+2025-02-20 08:17:59,198 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa71c16d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/659aaf5a1ac3e6bd9b9ca87066d524f2
+2025-02-20 08:17:59,200 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa71c1fd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/659aaf5a1ac3e6bd9b9ca87066d524f2
+2025-02-20 08:17:59,201 - INFO - WebDriver cleaned up successfully
+2025-02-20 08:17:59,202 - INFO - Scraper cleaned up successfully
+2025-02-20 08:17:59,202 - INFO - 192.168.65.1 - - [20/Feb/2025 08:17:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-20 08:17:59,227 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa8716350>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/659aaf5a1ac3e6bd9b9ca87066d524f2
+2025-02-20 08:17:59,228 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa71d3750>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/659aaf5a1ac3e6bd9b9ca87066d524f2
+2025-02-20 08:17:59,230 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa71d3c50>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/659aaf5a1ac3e6bd9b9ca87066d524f2
+2025-02-20 08:17:59,232 - INFO - WebDriver cleaned up successfully
+2025-02-20 08:17:59,233 - INFO - Scraper cleaned up successfully
+2025-02-20 08:17:59,233 - INFO - 192.168.65.1 - - [20/Feb/2025 08:17:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-20 08:19:26,822 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa71d0450>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/659aaf5a1ac3e6bd9b9ca87066d524f2/url
+2025-02-20 08:19:26,826 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa71c1f50>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/659aaf5a1ac3e6bd9b9ca87066d524f2/url
+2025-02-20 08:19:26,828 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa71c2110>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/659aaf5a1ac3e6bd9b9ca87066d524f2/url
+2025-02-20 08:19:26,830 - ERROR - Error getting train status: HTTPConnectionPool(host='localhost', port=47965): Max retries exceeded with url: /session/659aaf5a1ac3e6bd9b9ca87066d524f2/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa71c0f50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-02-20 08:19:26,830 - ERROR - Error processing request: HTTPConnectionPool(host='localhost', port=47965): Max retries exceeded with url: /session/659aaf5a1ac3e6bd9b9ca87066d524f2/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa71c0f50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-02-20 08:19:26,833 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa7230550>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/659aaf5a1ac3e6bd9b9ca87066d524f2
+2025-02-20 08:19:26,835 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa7230bd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/659aaf5a1ac3e6bd9b9ca87066d524f2
+2025-02-20 08:19:26,835 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa7231250>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/659aaf5a1ac3e6bd9b9ca87066d524f2
+2025-02-20 08:19:26,840 - INFO - WebDriver cleaned up successfully
+2025-02-20 08:19:26,841 - INFO - Scraper cleaned up successfully
+2025-02-20 08:19:26,844 - INFO - 192.168.65.1 - - [20/Feb/2025 08:19:26] "[35m[1mGET /train-status?train_number=16308&day=1 HTTP/1.1[0m" 500 -
+2025-02-20 08:19:59,863 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.24.0.2:5001
+2025-02-20 08:19:59,863 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 08:20:05,129 - INFO - WebDriver setup completed successfully
+2025-02-20 08:20:05,132 - INFO - Scraper initialized successfully
+2025-02-20 08:20:07,052 - INFO - Checking status for train number: 16308
+2025-02-20 08:20:16,041 - INFO - Entered train number: 16308
+2025-02-20 08:20:18,035 - INFO - Waiting for submit button
+2025-02-20 08:20:18,822 - INFO - Clicked submit button
+2025-02-20 08:20:18,905 - INFO - Selected date: 20-Feb-2025
+2025-02-20 08:20:18,906 - INFO - Date selected successfully
+2025-02-20 08:20:24,035 - INFO - Clicked submit button after date selection
+2025-02-20 08:20:24,183 - INFO - WebDriver cleaned up successfully
+2025-02-20 08:20:24,183 - INFO - Scraper cleaned up successfully
+2025-02-20 08:20:24,184 - INFO - 192.168.65.1 - - [20/Feb/2025 08:20:24] "GET /train-status?train_number=16308&day=1 HTTP/1.1" 200 -
+2025-02-20 08:21:05,194 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f8488d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/be19329bb00f8b3acb5f2066f72b610e/url
+2025-02-20 08:21:05,197 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f8494d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/be19329bb00f8b3acb5f2066f72b610e/url
+2025-02-20 08:21:05,199 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f849f90>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/be19329bb00f8b3acb5f2066f72b610e/url
+2025-02-20 08:21:05,201 - ERROR - Error getting train status: HTTPConnectionPool(host='localhost', port=36749): Max retries exceeded with url: /session/be19329bb00f8b3acb5f2066f72b610e/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f84ab10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-02-20 08:21:05,201 - ERROR - Error processing request: HTTPConnectionPool(host='localhost', port=36749): Max retries exceeded with url: /session/be19329bb00f8b3acb5f2066f72b610e/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f84ab10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-02-20 08:21:05,205 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f84b6d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/be19329bb00f8b3acb5f2066f72b610e
+2025-02-20 08:21:05,206 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f84bed0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/be19329bb00f8b3acb5f2066f72b610e
+2025-02-20 08:21:05,207 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f85c790>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/be19329bb00f8b3acb5f2066f72b610e
+2025-02-20 08:21:05,211 - INFO - WebDriver cleaned up successfully
+2025-02-20 08:21:05,212 - INFO - Scraper cleaned up successfully
+2025-02-20 08:21:05,213 - INFO - 192.168.65.1 - - [20/Feb/2025 08:21:05] "[35m[1mGET /train-status?train_number=16308&day=2 HTTP/1.1[0m" 500 -
+2025-02-20 08:21:25,867 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f85f650>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/be19329bb00f8b3acb5f2066f72b610e/url
+2025-02-20 08:21:25,869 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f84ba90>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/be19329bb00f8b3acb5f2066f72b610e/url
+2025-02-20 08:21:25,870 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f84b090>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/be19329bb00f8b3acb5f2066f72b610e/url
+2025-02-20 08:21:25,871 - ERROR - Error getting train status: HTTPConnectionPool(host='localhost', port=36749): Max retries exceeded with url: /session/be19329bb00f8b3acb5f2066f72b610e/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f84a0d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-02-20 08:21:25,871 - ERROR - Error processing request: HTTPConnectionPool(host='localhost', port=36749): Max retries exceeded with url: /session/be19329bb00f8b3acb5f2066f72b610e/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f84a0d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-02-20 08:21:25,875 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f849350>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/be19329bb00f8b3acb5f2066f72b610e
+2025-02-20 08:21:25,877 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f848710>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/be19329bb00f8b3acb5f2066f72b610e
+2025-02-20 08:21:25,878 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f83f290>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/be19329bb00f8b3acb5f2066f72b610e
+2025-02-20 08:21:25,883 - INFO - WebDriver cleaned up successfully
+2025-02-20 08:21:25,883 - INFO - Scraper cleaned up successfully
+2025-02-20 08:21:25,885 - INFO - 192.168.65.1 - - [20/Feb/2025 08:21:25] "[35m[1mGET /train-status?train_number=16308&day=1 HTTP/1.1[0m" 500 -
+2025-02-20 08:37:02,295 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f85c050>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/be19329bb00f8b3acb5f2066f72b610e/url
+2025-02-20 08:37:02,348 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f8605d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/be19329bb00f8b3acb5f2066f72b610e/url
+2025-02-20 08:37:02,349 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f861050>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/be19329bb00f8b3acb5f2066f72b610e/url
+2025-02-20 08:37:02,351 - ERROR - Error getting train status: HTTPConnectionPool(host='localhost', port=36749): Max retries exceeded with url: /session/be19329bb00f8b3acb5f2066f72b610e/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f861b50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-02-20 08:37:02,351 - ERROR - Error processing request: HTTPConnectionPool(host='localhost', port=36749): Max retries exceeded with url: /session/be19329bb00f8b3acb5f2066f72b610e/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f861b50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-02-20 08:37:02,355 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f862910>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/be19329bb00f8b3acb5f2066f72b610e
+2025-02-20 08:37:02,365 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f863190>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/be19329bb00f8b3acb5f2066f72b610e
+2025-02-20 08:37:02,366 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffff9f83f210>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/be19329bb00f8b3acb5f2066f72b610e
+2025-02-20 08:37:02,369 - INFO - WebDriver cleaned up successfully
+2025-02-20 08:37:02,369 - INFO - Scraper cleaned up successfully
+2025-02-20 08:37:02,370 - INFO - 192.168.65.1 - - [20/Feb/2025 08:37:02] "[35m[1mGET /train-status?train_number=16308&day=1 HTTP/1.1[0m" 500 -

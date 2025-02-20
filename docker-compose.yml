@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  train-status-api:
+    build: .
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./logs:/app/logs
+    restart: unless-stopped 
