@@ -22,18 +22,21 @@ scraper = None
 def initialize_scraper():
     """Initialize the scraper if not already initialized"""
     global scraper
-    if scraper is None:
-        try:
-            scraper = TrainStatusScraper()
-            logger.info("Scraper initialized successfully")
-        except Exception as e:
-            logger.error(f"Failed to initialize scraper: {str(e)}")
-            raise
+    try:
+        # Always create a new scraper instance
+        if scraper:
+            scraper.cleanup()
+        scraper = TrainStatusScraper()
+        logger.info("Scraper initialized successfully")
+    except Exception as e:
+        logger.error(f"Failed to initialize scraper: {str(e)}")
+        raise
 
 @app.before_request
 def before_request():
     """Ensure scraper is initialized before each request"""
-    initialize_scraper()
+    if request.endpoint != 'health_check':  # Skip for health check endpoint
+        initialize_scraper()
 
 @app.route('/train-status', methods=['GET'])
 def get_train_status():
@@ -87,15 +90,18 @@ def health_check():
         'scraper_initialized': scraper is not None
     })
 
-def cleanup():
-    """Cleanup resources when shutting down"""
+@app.after_request
+def after_request(response):
+    """Cleanup scraper after each request"""
     global scraper
-    if scraper:
-        scraper.cleanup()
-        logger.info("Scraper cleaned up successfully")
-
-# Register cleanup function to be called on shutdown
-app.teardown_appcontext(lambda exception: cleanup())
+    if scraper and request.endpoint != 'health_check':  # Skip for health check endpoint
+        try:
+            scraper.cleanup()
+            logger.info("Scraper cleaned up successfully after request")
+            scraper = None
+        except Exception as e:
+            logger.error(f"Error cleaning up scraper: {str(e)}")
+    return response
 
 if __name__ == '__main__':
     # Create logs directory if it doesn't exist

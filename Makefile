@@ -1,10 +1,11 @@
-.PHONY: build run run-detached stop logs clean test help pull
+.PHONY: build build-no-cache run run-detached stop logs clean test help pull init
 
 # Default target
 help:
 	@echo "Available commands:"
 	@echo "  make pull         - Pull required Docker images"
-	@echo "  make build        - Build the Docker image"
+	@echo "  make build        - Build the Docker image (with cache)"
+	@echo "  make build-no-cache - Build the Docker image (without cache)"
 	@echo "  make run          - Run the application in foreground"
 	@echo "  make run-detached - Run the application in background"
 	@echo "  make stop         - Stop the running application"
@@ -17,8 +18,12 @@ help:
 pull:
 	docker pull python:3.11-slim
 
-# Build the Docker image with retry
+# Build the Docker image with cache
 build: pull
+	docker-compose build
+
+# Build the Docker image without cache
+build-no-cache: pull
 	for i in 1 2 3; do \
 		docker-compose build --no-cache && break || { \
 			echo "Retry $$i..."; \

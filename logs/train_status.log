@@ -683,3 +683,44 @@ selenium.common.exceptions.WebDriverException: Message: Service /opt/homebrew/bi
 2025-02-20 08:37:02,369 - INFO - WebDriver cleaned up successfully
 2025-02-20 08:37:02,369 - INFO - Scraper cleaned up successfully
 2025-02-20 08:37:02,370 - INFO - 192.168.65.1 - - [20/Feb/2025 08:37:02] "[35m[1mGET /train-status?train_number=16308&day=1 HTTP/1.1[0m" 500 -
+2025-02-20 08:42:18,931 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.24.0.2:5001
+2025-02-20 08:42:18,932 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 08:42:35,878 - INFO - WebDriver setup completed successfully
+2025-02-20 08:42:35,879 - INFO - Scraper initialized successfully
+2025-02-20 08:42:35,879 - ERROR - Error getting train status: 'TrainStatusScraper' object has no attribute 'base_url'
+2025-02-20 08:42:35,879 - ERROR - Error processing request: 'TrainStatusScraper' object has no attribute 'base_url'
+2025-02-20 08:42:35,940 - INFO - WebDriver cleaned up successfully
+2025-02-20 08:42:35,940 - INFO - Scraper cleaned up successfully after request
+2025-02-20 08:42:35,942 - INFO - 192.168.65.1 - - [20/Feb/2025 08:42:35] "[35m[1mGET /train-status?train_number=16308&day=1 HTTP/1.1[0m" 500 -
+2025-02-20 08:44:14,553 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.24.0.2:5001
+2025-02-20 08:44:14,554 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-20 08:44:20,266 - INFO - WebDriver setup completed successfully
+2025-02-20 08:44:20,266 - INFO - Scraper initialized successfully
+2025-02-20 08:44:21,753 - INFO - Checking status for train number: 16308
+2025-02-20 08:44:30,373 - INFO - Entered train number: 16308
+2025-02-20 08:44:32,380 - INFO - Waiting for submit button
+2025-02-20 08:44:33,168 - INFO - Clicked submit button
+2025-02-20 08:44:33,228 - INFO - Selected date: 20-Feb-2025
+2025-02-20 08:44:33,229 - INFO - Date selected successfully
+2025-02-20 08:44:38,335 - INFO - Clicked submit button after date selection
+2025-02-20 08:44:38,522 - INFO - WebDriver cleaned up successfully
+2025-02-20 08:44:38,522 - INFO - Scraper cleaned up successfully after request
+2025-02-20 08:44:38,524 - INFO - 192.168.65.1 - - [20/Feb/2025 08:44:38] "GET /train-status?train_number=16308&day=1 HTTP/1.1" 200 -
+2025-02-20 08:45:07,207 - INFO - WebDriver setup completed successfully
+2025-02-20 08:45:07,208 - INFO - Scraper initialized successfully
+2025-02-20 08:45:08,515 - INFO - Checking status for train number: 13351
+2025-02-20 08:45:17,047 - INFO - Entered train number: 13351
+2025-02-20 08:45:19,057 - INFO - Waiting for submit button
+2025-02-20 08:45:19,903 - INFO - Clicked submit button
+2025-02-20 08:45:19,961 - INFO - Selected date: 18-Feb-2025
+2025-02-20 08:45:19,961 - INFO - Date selected successfully
+2025-02-20 08:45:25,776 - INFO - Clicked submit button after date selection
+2025-02-20 08:45:25,909 - INFO - WebDriver cleaned up successfully
+2025-02-20 08:45:25,909 - INFO - Scraper cleaned up successfully after request
+2025-02-20 08:45:25,911 - INFO - 192.168.65.1 - - [20/Feb/2025 08:45:25] "GET /train-status?train_number=13351&day=3 HTTP/1.1" 200 -

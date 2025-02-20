@@ -34,37 +34,40 @@ class TrainStatusScraper:
     """Class to handle train status scraping operations"""
     
     def __init__(self):
-        """Initialize the scraper with webdriver setup"""
+        """Initialize the scraper with Chrome options"""
         self.logger = logging.getLogger(__name__)
         self.base_url = "https://www.confirmtkt.com/train-running-status"
-        self.driver = None
-        self.setup_driver()
+        
+        self.chrome_options = webdriver.ChromeOptions()
+        self.chrome_options.add_argument('--no-sandbox')
+        self.chrome_options.add_argument('--headless')
+        self.chrome_options.add_argument('--disable-dev-shm-usage')
+        self.chrome_options.add_argument('--disable-gpu')
+        self.chrome_options.add_argument('--window-size=1920,1080')
+        self.chrome_options.add_argument('--disable-software-rasterizer')
+        
+        # Set binary location from environment variable
+        chrome_binary = os.getenv('CHROME_BIN', '/usr/bin/chromium')
+        self.chrome_options.binary_location = chrome_binary
+        
+        # Initialize the service with the chromedriver path
+        chromedriver_path = os.getenv('CHROMEDRIVER_PATH', '/usr/bin/chromedriver')
+        self.service = Service(executable_path=chromedriver_path)
+        
+        # Initialize the driver
+        self.initialize_driver()
+        self.logger.info("WebDriver setup completed successfully")
 
-    def setup_driver(self):
-        """Set up Chrome webdriver with appropriate options"""
+    def initialize_driver(self):
+        """Initialize or reinitialize the WebDriver"""
         try:
-            chrome_options = Options()
-            chrome_options.add_argument("--headless=new")
-            chrome_options.add_argument("--no-sandbox")
-            chrome_options.add_argument("--disable-dev-shm-usage")
-            chrome_options.add_argument("--window-size=1920,1080")
-            chrome_options.add_argument("--disable-notifications")
-            chrome_options.add_argument("--disable-popup-blocking")
-            chrome_options.add_argument("--disable-gpu")
-            chrome_options.add_argument("--disable-software-rasterizer")
-            
-            # Use environment variables for binary paths
-            chrome_binary = os.getenv('CHROME_BIN', '/usr/bin/chromium')
-            chromedriver_path = os.getenv('CHROMEDRIVER_PATH', '/usr/bin/chromedriver')
-            
-            chrome_options.binary_location = chrome_binary
-            service = Service(executable_path=chromedriver_path)
-            
-            self.driver = webdriver.Chrome(service=service, options=chrome_options)
+            self.driver = webdriver.Chrome(
+                service=self.service,
+                options=self.chrome_options
+            )
             self.driver.implicitly_wait(20)  # Increased wait time
-            self.logger.info("WebDriver setup completed successfully")
         except Exception as e:
-            self.logger.error(f"Failed to setup WebDriver: {str(e)}")
+            self.logger.error(f"Failed to initialize WebDriver: {str(e)}")
             raise
 
     def wait_and_find_element(self, by, value, timeout=20, retries=3):
@@ -309,9 +312,18 @@ class TrainStatusScraper:
         
     def cleanup(self):
         """Clean up resources"""
-        if self.driver:
-            self.driver.quit()
-            self.logger.info("WebDriver cleaned up successfully")
+        try:
+            if hasattr(self, 'driver') and self.driver:
+                self.driver.quit()
+                self.driver = None
+                self.logger.info("WebDriver cleaned up successfully")
+        except Exception as e:
+            self.logger.error(f"Error during WebDriver cleanup: {str(e)}")
+            # Don't raise the exception here to ensure cleanup continues
+
+    def __del__(self):
+        """Destructor to ensure cleanup"""
+        self.cleanup()
 
 def main():
     """Main function to run the scraper"""
