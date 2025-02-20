@@ -1,0 +1,325 @@
+2025-02-20 12:16:40,090 - INFO - ====== WebDriver manager ======
+2025-02-20 12:16:45,256 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-20 12:16:45,875 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-20 12:16:46,157 - INFO - There is no [mac64] chromedriver "133.0.6943.126" for browser google-chrome "133.0.6943" in cache
+2025-02-20 12:16:46,161 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-20 12:16:46,583 - INFO - WebDriver version 133.0.6943.126 selected
+2025-02-20 12:16:46,587 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.126/mac-arm64/chromedriver-mac-arm64.zip
+2025-02-20 12:16:46,587 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.126/mac-arm64/chromedriver-mac-arm64.zip
+2025-02-20 12:16:47,093 - INFO - Driver downloading response is 200
+2025-02-20 12:16:52,005 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-20 12:16:52,376 - INFO - Driver has been saved in cache [/Users/ananthu/.wdm/drivers/chromedriver/mac64/133.0.6943.126]
+2025-02-20 12:16:52,380 - ERROR - Failed to setup WebDriver: [Errno 8] Exec format error: '/Users/ananthu/.wdm/drivers/chromedriver/mac64/133.0.6943.126/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-02-20 12:16:52,380 - ERROR - Application error: [Errno 8] Exec format error: '/Users/ananthu/.wdm/drivers/chromedriver/mac64/133.0.6943.126/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-02-20 12:17:24,942 - INFO - ====== WebDriver manager ======
+2025-02-20 12:17:25,098 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-20 12:17:25,247 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-20 12:17:25,418 - INFO - Driver [/Users/ananthu/.wdm/drivers/chromedriver/mac64/133.0.6943.126/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver] found in cache
+2025-02-20 12:17:25,421 - ERROR - Failed to setup WebDriver: [Errno 8] Exec format error: '/Users/ananthu/.wdm/drivers/chromedriver/mac64/133.0.6943.126/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-02-20 12:17:25,421 - ERROR - Application error: [Errno 8] Exec format error: '/Users/ananthu/.wdm/drivers/chromedriver/mac64/133.0.6943.126/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-02-20 12:18:19,266 - INFO - ====== WebDriver manager ======
+2025-02-20 12:18:19,425 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-20 12:18:19,613 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-20 12:18:19,788 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-20 12:18:20,254 - INFO - WebDriver version 133.0.6943.126 selected
+2025-02-20 12:18:20,267 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.126/mac-arm64/chromedriver-mac-arm64.zip
+2025-02-20 12:18:20,267 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.126/mac-arm64/chromedriver-mac-arm64.zip
+2025-02-20 12:18:20,468 - INFO - Driver downloading response is 200
+2025-02-20 12:18:25,533 - INFO - Get LATEST chromedriver version for google-chrome
+2025-02-20 12:18:25,916 - INFO - Driver has been saved in cache [/Users/ananthu/.wdm/drivers/chromedriver/mac64/133.0.6943.126]
+2025-02-20 12:18:25,920 - ERROR - Failed to setup WebDriver: [Errno 8] Exec format error: '/Users/ananthu/.wdm/drivers/chromedriver/mac64/133.0.6943.126/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-02-20 12:18:25,920 - ERROR - Application error: [Errno 8] Exec format error: '/Users/ananthu/.wdm/drivers/chromedriver/mac64/133.0.6943.126/chromedriver-mac-arm64/THIRD_PARTY_NOTICES.chromedriver'
+2025-02-20 12:20:09,895 - INFO - WebDriver setup completed successfully
+2025-02-20 12:20:11,298 - INFO - Checking status for train number: 12345
+2025-02-20 12:20:11,489 - INFO - Entered train number: 12345
+2025-02-20 12:20:22,074 - ERROR - Failed to enter train number: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010314eb58 cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x00000001031471b8 cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x0000000102cadafc cxxbridge1$string$len + 93348
+3   chromedriver                        0x0000000102cf48f8 cxxbridge1$string$len + 383648
+4   chromedriver                        0x0000000102d35b94 cxxbridge1$string$len + 650556
+5   chromedriver                        0x0000000102ce8ba0 cxxbridge1$string$len + 335176
+6   chromedriver                        0x0000000103117610 cxxbridge1$str$ptr + 2498188
+7   chromedriver                        0x000000010311a924 cxxbridge1$str$ptr + 2511264
+8   chromedriver                        0x00000001030fccb0 cxxbridge1$str$ptr + 2389292
+9   chromedriver                        0x000000010311b1cc cxxbridge1$str$ptr + 2513480
+10  chromedriver                        0x00000001030edc98 cxxbridge1$str$ptr + 2327828
+11  chromedriver                        0x0000000103137880 cxxbridge1$str$ptr + 2629884
+12  chromedriver                        0x0000000103137a08 cxxbridge1$str$ptr + 2630276
+13  chromedriver                        0x0000000103146e2c cxxbridge1$str$ptr + 2692776
+14  libsystem_pthread.dylib             0x00000001a73fe06c _pthread_start + 148
+15  libsystem_pthread.dylib             0x00000001a73f8e2c thread_start + 8
+
+2025-02-20 12:20:22,076 - ERROR - Error getting train status: Failed to enter train number and get status
+2025-02-20 12:20:22,185 - INFO - WebDriver cleaned up successfully
+2025-02-20 12:20:22,185 - ERROR - Application error: Failed to enter train number and get status
+2025-02-20 12:21:24,743 - INFO - WebDriver setup completed successfully
+2025-02-20 12:21:26,107 - INFO - Checking status for train number: 12345
+2025-02-20 12:21:31,255 - INFO - Entered train number: 12345
+2025-02-20 12:21:53,832 - WARNING - Attempt 1 failed, retrying...
+2025-02-20 12:22:16,354 - WARNING - Attempt 2 failed, retrying...
+2025-02-20 12:22:19,052 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(54, 'Connection reset by peer')': /session/48c539ff69cf6ece392bf6fa3dab69d7
+2025-02-20 12:22:19,054 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10598e210>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/48c539ff69cf6ece392bf6fa3dab69d7
+2025-02-20 12:22:19,056 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105912b10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/48c539ff69cf6ece392bf6fa3dab69d7
+2025-02-20 12:22:19,084 - INFO - WebDriver cleaned up successfully
+2025-02-20 12:22:44,800 - INFO - WebDriver setup completed successfully
+2025-02-20 12:22:45,851 - INFO - Checking status for train number: 12345
+2025-02-20 12:22:51,062 - INFO - Entered train number: 12345
+2025-02-20 12:22:58,720 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10253a350>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/469ccf167caf5c0d1584f5fd15753137
+2025-02-20 12:22:58,722 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10253a490>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/469ccf167caf5c0d1584f5fd15753137
+2025-02-20 12:22:58,724 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1024be8b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/469ccf167caf5c0d1584f5fd15753137
+2025-02-20 12:22:58,744 - INFO - WebDriver cleaned up successfully
+2025-02-20 12:24:34,297 - INFO - WebDriver setup completed successfully
+2025-02-20 12:24:35,229 - INFO - Checking status for train number: 16308
+2025-02-20 12:24:40,418 - INFO - Entered train number: 16308
+2025-02-20 12:25:02,967 - WARNING - Attempt 1 failed, retrying...
+2025-02-20 12:25:25,508 - WARNING - Attempt 2 failed, retrying...
+2025-02-20 12:25:48,036 - ERROR - Failed to enter train number: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010462eb58 cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x00000001046271b8 cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x000000010418dafc cxxbridge1$string$len + 93348
+3   chromedriver                        0x00000001041d48f8 cxxbridge1$string$len + 383648
+4   chromedriver                        0x0000000104215b94 cxxbridge1$string$len + 650556
+5   chromedriver                        0x00000001041c8ba0 cxxbridge1$string$len + 335176
+6   chromedriver                        0x00000001045f7610 cxxbridge1$str$ptr + 2498188
+7   chromedriver                        0x00000001045fa924 cxxbridge1$str$ptr + 2511264
+8   chromedriver                        0x00000001045dccb0 cxxbridge1$str$ptr + 2389292
+9   chromedriver                        0x00000001045fb1cc cxxbridge1$str$ptr + 2513480
+10  chromedriver                        0x00000001045cdc98 cxxbridge1$str$ptr + 2327828
+11  chromedriver                        0x0000000104617880 cxxbridge1$str$ptr + 2629884
+12  chromedriver                        0x0000000104617a08 cxxbridge1$str$ptr + 2630276
+13  chromedriver                        0x0000000104626e2c cxxbridge1$str$ptr + 2692776
+14  libsystem_pthread.dylib             0x00000001a73fe06c _pthread_start + 148
+15  libsystem_pthread.dylib             0x00000001a73f8e2c thread_start + 8
+
+2025-02-20 12:25:48,042 - ERROR - Error getting train status: Failed to enter train number and get status
+2025-02-20 12:25:48,284 - INFO - WebDriver cleaned up successfully
+2025-02-20 12:25:48,284 - ERROR - Application error: Failed to enter train number and get status
+2025-02-20 12:28:30,618 - INFO - WebDriver setup completed successfully
+2025-02-20 12:28:31,567 - INFO - Checking status for train number: 16308
+2025-02-20 12:28:36,764 - INFO - Entered train number: 16308
+2025-02-20 12:28:40,890 - INFO - Clicked check status button
+2025-02-20 12:28:55,375 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x103cc65d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f3ebbffb3354fa1ced2bd8287a2a178a
+2025-02-20 12:28:55,378 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x103cc6490>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f3ebbffb3354fa1ced2bd8287a2a178a
+2025-02-20 12:28:55,385 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x103c4ab10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/f3ebbffb3354fa1ced2bd8287a2a178a
+2025-02-20 12:28:55,410 - INFO - WebDriver cleaned up successfully
+2025-02-20 12:28:58,132 - INFO - WebDriver setup completed successfully
+2025-02-20 12:28:59,037 - INFO - Checking status for train number: 16308
+2025-02-20 12:29:04,207 - INFO - Entered train number: 16308
+2025-02-20 12:29:08,028 - INFO - Clicked check status button
+2025-02-20 12:29:17,467 - INFO - WebDriver cleaned up successfully
+2025-02-20 12:29:33,849 - INFO - WebDriver setup completed successfully
+2025-02-20 12:29:34,741 - INFO - Checking status for train number: 16308
+2025-02-20 12:29:39,922 - INFO - Entered train number: 16308
+2025-02-20 12:29:43,633 - INFO - Clicked check status button
+2025-02-20 12:29:57,331 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105b625d0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/33d9f8228a9195e467fe8e8090ff3c8c
+2025-02-20 12:29:57,334 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105b62490>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/33d9f8228a9195e467fe8e8090ff3c8c
+2025-02-20 12:29:57,338 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x105ae6b10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/33d9f8228a9195e467fe8e8090ff3c8c
+2025-02-20 12:29:57,363 - INFO - WebDriver cleaned up successfully
+2025-02-20 12:31:19,358 - INFO - WebDriver setup completed successfully
+2025-02-20 12:31:20,335 - INFO - Checking status for train number: 16308
+2025-02-20 12:31:28,150 - ERROR - Failed to enter train number: Message: stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.100); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102e66b58 cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x0000000102e5f1b8 cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x00000001029c5afc cxxbridge1$string$len + 93348
+3   chromedriver                        0x00000001029d6054 cxxbridge1$string$len + 160252
+4   chromedriver                        0x00000001029d5108 cxxbridge1$string$len + 156336
+5   chromedriver                        0x00000001029cc110 cxxbridge1$string$len + 119480
+6   chromedriver                        0x00000001029ca7b0 cxxbridge1$string$len + 112984
+7   chromedriver                        0x00000001029cd8e0 cxxbridge1$string$len + 125576
+8   chromedriver                        0x00000001029cd988 cxxbridge1$string$len + 125744
+9   chromedriver                        0x0000000102a0e1d4 cxxbridge1$string$len + 390012
+10  chromedriver                        0x0000000102a04354 cxxbridge1$string$len + 349436
+11  chromedriver                        0x0000000102a020bc cxxbridge1$string$len + 340580
+12  chromedriver                        0x0000000102a4db94 cxxbridge1$string$len + 650556
+13  chromedriver                        0x0000000102a00ba0 cxxbridge1$string$len + 335176
+14  chromedriver                        0x0000000102e2f610 cxxbridge1$str$ptr + 2498188
+15  chromedriver                        0x0000000102e32924 cxxbridge1$str$ptr + 2511264
+16  chromedriver                        0x0000000102e14cb0 cxxbridge1$str$ptr + 2389292
+17  chromedriver                        0x0000000102e331cc cxxbridge1$str$ptr + 2513480
+18  chromedriver                        0x0000000102e05c98 cxxbridge1$str$ptr + 2327828
+19  chromedriver                        0x0000000102e4f880 cxxbridge1$str$ptr + 2629884
+20  chromedriver                        0x0000000102e4fa08 cxxbridge1$str$ptr + 2630276
+21  chromedriver                        0x0000000102e5ee2c cxxbridge1$str$ptr + 2692776
+22  libsystem_pthread.dylib             0x00000001a73fe06c _pthread_start + 148
+23  libsystem_pthread.dylib             0x00000001a73f8e2c thread_start + 8
+
+2025-02-20 12:31:28,151 - ERROR - Error getting train status: Failed to enter train number and get status
+2025-02-20 12:31:28,255 - INFO - WebDriver cleaned up successfully
+2025-02-20 12:31:28,255 - ERROR - Application error: Failed to enter train number and get status
+2025-02-20 12:34:14,460 - INFO - WebDriver setup completed successfully
+2025-02-20 12:34:15,844 - INFO - Checking status for train number: 16308
+2025-02-20 12:34:25,990 - ERROR - Failed to enter train number: Message: stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.100); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x0000000102dceb58 cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x0000000102dc71b8 cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x000000010292dafc cxxbridge1$string$len + 93348
+3   chromedriver                        0x000000010293e054 cxxbridge1$string$len + 160252
+4   chromedriver                        0x000000010293d108 cxxbridge1$string$len + 156336
+5   chromedriver                        0x0000000102934110 cxxbridge1$string$len + 119480
+6   chromedriver                        0x000000010293421c cxxbridge1$string$len + 119748
+7   chromedriver                        0x00000001029327b0 cxxbridge1$string$len + 112984
+8   chromedriver                        0x0000000102935b64 cxxbridge1$string$len + 126220
+9   chromedriver                        0x00000001029b6960 cxxbridge1$string$len + 654088
+10  chromedriver                        0x00000001029b5b94 cxxbridge1$string$len + 650556
+11  chromedriver                        0x0000000102968ba0 cxxbridge1$string$len + 335176
+12  chromedriver                        0x0000000102d97610 cxxbridge1$str$ptr + 2498188
+13  chromedriver                        0x0000000102d9a924 cxxbridge1$str$ptr + 2511264
+14  chromedriver                        0x0000000102d7ccb0 cxxbridge1$str$ptr + 2389292
+15  chromedriver                        0x0000000102d9b1cc cxxbridge1$str$ptr + 2513480
+16  chromedriver                        0x0000000102d6dc98 cxxbridge1$str$ptr + 2327828
+17  chromedriver                        0x0000000102db7880 cxxbridge1$str$ptr + 2629884
+18  chromedriver                        0x0000000102db7a08 cxxbridge1$str$ptr + 2630276
+19  chromedriver                        0x0000000102dc6e2c cxxbridge1$str$ptr + 2692776
+20  libsystem_pthread.dylib             0x00000001a73fe06c _pthread_start + 148
+21  libsystem_pthread.dylib             0x00000001a73f8e2c thread_start + 8
+
+2025-02-20 12:34:25,991 - ERROR - Error getting train status: Failed to enter train number and get status
+2025-02-20 12:34:26,116 - INFO - WebDriver cleaned up successfully
+2025-02-20 12:34:26,116 - ERROR - Application error: Failed to enter train number and get status
+2025-02-20 12:36:56,171 - INFO - WebDriver setup completed successfully
+2025-02-20 12:36:57,296 - INFO - Checking status for train number: 16308
+2025-02-20 12:37:43,404 - WARNING - Attempt 1 failed, retrying...
+2025-02-20 12:38:15,253 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x102846710>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/508c0bcc38209ad9324c6d68895875db
+2025-02-20 12:38:15,255 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x102846210>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/508c0bcc38209ad9324c6d68895875db
+2025-02-20 12:38:15,255 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1027ca8b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/508c0bcc38209ad9324c6d68895875db
+2025-02-20 12:38:15,282 - INFO - WebDriver cleaned up successfully
+2025-02-20 12:38:18,133 - INFO - WebDriver setup completed successfully
+2025-02-20 12:38:18,989 - INFO - Checking status for train number: 16308
+2025-02-20 12:38:26,769 - ERROR - Failed to enter train number: Message: stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.100); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x00000001046eab58 cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x00000001046e31b8 cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x0000000104249afc cxxbridge1$string$len + 93348
+3   chromedriver                        0x000000010425a054 cxxbridge1$string$len + 160252
+4   chromedriver                        0x0000000104259108 cxxbridge1$string$len + 156336
+5   chromedriver                        0x0000000104250110 cxxbridge1$string$len + 119480
+6   chromedriver                        0x000000010425021c cxxbridge1$string$len + 119748
+7   chromedriver                        0x000000010424e7b0 cxxbridge1$string$len + 112984
+8   chromedriver                        0x0000000104251b64 cxxbridge1$string$len + 126220
+9   chromedriver                        0x00000001042d2960 cxxbridge1$string$len + 654088
+10  chromedriver                        0x00000001042d1b94 cxxbridge1$string$len + 650556
+11  chromedriver                        0x0000000104284ba0 cxxbridge1$string$len + 335176
+12  chromedriver                        0x00000001046b3610 cxxbridge1$str$ptr + 2498188
+13  chromedriver                        0x00000001046b6924 cxxbridge1$str$ptr + 2511264
+14  chromedriver                        0x0000000104698cb0 cxxbridge1$str$ptr + 2389292
+15  chromedriver                        0x00000001046b71cc cxxbridge1$str$ptr + 2513480
+16  chromedriver                        0x0000000104689c98 cxxbridge1$str$ptr + 2327828
+17  chromedriver                        0x00000001046d3880 cxxbridge1$str$ptr + 2629884
+18  chromedriver                        0x00000001046d3a08 cxxbridge1$str$ptr + 2630276
+19  chromedriver                        0x00000001046e2e2c cxxbridge1$str$ptr + 2692776
+20  libsystem_pthread.dylib             0x00000001a73fe06c _pthread_start + 148
+21  libsystem_pthread.dylib             0x00000001a73f8e2c thread_start + 8
+
+2025-02-20 12:38:26,770 - ERROR - Error getting train status: Failed to enter train number and get status
+2025-02-20 12:38:26,892 - INFO - WebDriver cleaned up successfully
+2025-02-20 12:38:26,893 - ERROR - Application error: Failed to enter train number and get status
+2025-02-20 12:40:09,467 - INFO - WebDriver setup completed successfully
+2025-02-20 12:40:10,295 - INFO - Checking status for train number: 16308
+2025-02-20 12:40:15,319 - ERROR - Failed to enter train number: name 'input_field' is not defined
+2025-02-20 12:40:15,319 - ERROR - Error getting train status: Failed to enter train number and get status
+2025-02-20 12:40:15,416 - INFO - WebDriver cleaned up successfully
+2025-02-20 12:40:15,416 - ERROR - Application error: Failed to enter train number and get status
+2025-02-20 12:41:28,415 - INFO - WebDriver setup completed successfully
+2025-02-20 12:41:30,038 - INFO - Checking status for train number: 16308
+2025-02-20 12:41:46,356 - INFO - Entered train number: 16308
+2025-02-20 12:41:49,398 - ERROR - Failed to enter train number: name 'wait' is not defined
+2025-02-20 12:41:49,398 - ERROR - Error getting train status: Failed to enter train number and get status
+2025-02-20 12:41:49,596 - INFO - WebDriver cleaned up successfully
+2025-02-20 12:41:49,596 - ERROR - Application error: Failed to enter train number and get status
+2025-02-20 12:43:25,778 - INFO - WebDriver setup completed successfully
+2025-02-20 12:43:26,687 - INFO - Checking status for train number: 16308
+2025-02-20 12:43:43,004 - INFO - Entered train number: 16308
+2025-02-20 12:43:46,048 - ERROR - Failed to enter train number: name 'wait' is not defined
+2025-02-20 12:43:46,048 - ERROR - Error getting train status: Failed to enter train number and get status
+2025-02-20 12:43:46,224 - INFO - WebDriver cleaned up successfully
+2025-02-20 12:43:46,224 - ERROR - Application error: Failed to enter train number and get status
+2025-02-20 12:45:03,168 - INFO - WebDriver setup completed successfully
+2025-02-20 12:45:04,618 - INFO - Checking status for train number: 16308
+2025-02-20 12:45:20,910 - INFO - Entered train number: 16308
+2025-02-20 12:45:22,912 - INFO - Waiting for check status button
+2025-02-20 12:45:22,913 - ERROR - Failed to enter train number: TrainStatusScraper.wait_and_find_element() missing 1 required positional argument: 'value'
+2025-02-20 12:45:22,913 - ERROR - Error getting train status: Failed to enter train number and get status
+2025-02-20 12:45:23,048 - INFO - WebDriver cleaned up successfully
+2025-02-20 12:45:23,049 - ERROR - Application error: Failed to enter train number and get status
+2025-02-20 12:48:47,131 - INFO - WebDriver setup completed successfully
+2025-02-20 12:48:48,648 - INFO - Checking status for train number: 16308
+2025-02-20 12:49:04,915 - INFO - Entered train number: 16308
+2025-02-20 12:49:06,920 - INFO - Waiting for check status button
+2025-02-20 12:49:06,933 - INFO - Found check status button
+2025-02-20 12:49:11,068 - INFO - Clicked check status button
+2025-02-20 12:49:52,216 - WARNING - Attempt 1 failed, retrying...
+2025-02-20 12:50:35,312 - WARNING - Attempt 2 failed, retrying...
+2025-02-20 12:50:44,945 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106242490>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/8b21a092cada73800dde73ff37c38c8d
+2025-02-20 12:50:44,949 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106242210>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/8b21a092cada73800dde73ff37c38c8d
+2025-02-20 12:50:44,950 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10604ab10>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/8b21a092cada73800dde73ff37c38c8d
+2025-02-20 12:50:45,038 - INFO - WebDriver cleaned up successfully
+2025-02-20 12:50:47,895 - INFO - WebDriver setup completed successfully
+2025-02-20 12:50:48,696 - INFO - Checking status for train number: 16308
+2025-02-20 12:51:15,714 - ERROR - Failed to enter train number: Message: stale element reference: stale element not found
+  (Session info: chrome=133.0.6943.100); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+0   chromedriver                        0x00000001030aab58 cxxbridge1$str$ptr + 2724820
+1   chromedriver                        0x00000001030a31b8 cxxbridge1$str$ptr + 2693684
+2   chromedriver                        0x0000000102c09afc cxxbridge1$string$len + 93348
+3   chromedriver                        0x0000000102c1a054 cxxbridge1$string$len + 160252
+4   chromedriver                        0x0000000102c19108 cxxbridge1$string$len + 156336
+5   chromedriver                        0x0000000102c10110 cxxbridge1$string$len + 119480
+6   chromedriver                        0x0000000102c0e7b0 cxxbridge1$string$len + 112984
+7   chromedriver                        0x0000000102c118e0 cxxbridge1$string$len + 125576
+8   chromedriver                        0x0000000102c11988 cxxbridge1$string$len + 125744
+9   chromedriver                        0x0000000102c51434 cxxbridge1$string$len + 386524
+10  chromedriver                        0x0000000102c514b8 cxxbridge1$string$len + 386656
+11  chromedriver                        0x0000000102c49348 cxxbridge1$string$len + 353520
+12  chromedriver                        0x0000000102c460bc cxxbridge1$string$len + 340580
+13  chromedriver                        0x0000000102c91b94 cxxbridge1$string$len + 650556
+14  chromedriver                        0x0000000102c44ba0 cxxbridge1$string$len + 335176
+15  chromedriver                        0x0000000103073610 cxxbridge1$str$ptr + 2498188
+16  chromedriver                        0x0000000103076924 cxxbridge1$str$ptr + 2511264
+17  chromedriver                        0x0000000103058cb0 cxxbridge1$str$ptr + 2389292
+18  chromedriver                        0x00000001030771cc cxxbridge1$str$ptr + 2513480
+19  chromedriver                        0x0000000103049c98 cxxbridge1$str$ptr + 2327828
+20  chromedriver                        0x0000000103093880 cxxbridge1$str$ptr + 2629884
+21  chromedriver                        0x0000000103093a08 cxxbridge1$str$ptr + 2630276
+22  chromedriver                        0x00000001030a2e2c cxxbridge1$str$ptr + 2692776
+23  libsystem_pthread.dylib             0x00000001a73fe06c _pthread_start + 148
+24  libsystem_pthread.dylib             0x00000001a73f8e2c thread_start + 8
+
+2025-02-20 12:51:15,715 - ERROR - Error getting train status: Failed to enter train number and get status
+2025-02-20 12:51:15,857 - INFO - WebDriver cleaned up successfully
+2025-02-20 12:51:15,858 - ERROR - Application error: Failed to enter train number and get status
+2025-02-20 12:53:18,132 - INFO - WebDriver setup completed successfully
+2025-02-20 12:53:19,098 - INFO - Checking status for train number: 16308
+2025-02-20 12:53:29,276 - INFO - Entered train number: 16308
+2025-02-20 12:53:31,277 - INFO - Waiting for check status button
+2025-02-20 12:53:31,287 - INFO - Found check status button
+2025-02-20 12:53:34,452 - INFO - Clicked check status button
+2025-02-20 12:53:34,664 - INFO - WebDriver cleaned up successfully
+2025-02-20 12:53:59,003 - INFO - WebDriver setup completed successfully
+2025-02-20 12:53:59,958 - INFO - Checking status for train number: 16308
+2025-02-20 12:54:10,161 - INFO - Entered train number: 16308
+2025-02-20 12:54:12,168 - INFO - Waiting for check status button
+2025-02-20 12:54:12,176 - INFO - Found check status button
+2025-02-20 12:54:13,302 - INFO - Clicked check status button
+2025-02-20 12:54:13,501 - INFO - WebDriver cleaned up successfully
+2025-02-20 12:54:49,369 - INFO - WebDriver setup completed successfully
+2025-02-20 12:54:50,313 - INFO - Checking status for train number: 16308
+2025-02-20 12:55:00,183 - INFO - Entered train number: 16308
+2025-02-20 12:55:02,190 - INFO - Waiting for check status button
+2025-02-20 12:55:02,199 - INFO - Found check status button
+2025-02-20 12:55:03,280 - INFO - Clicked check status button
+2025-02-20 12:55:03,443 - INFO - WebDriver cleaned up successfully
+2025-02-20 13:02:20,237 - INFO - WebDriver setup completed successfully
+2025-02-20 13:02:21,703 - INFO - Checking status for train number: 16308
+2025-02-20 13:02:32,278 - INFO - Entered train number: 16308
+2025-02-20 13:02:34,279 - INFO - Waiting for check status button
+2025-02-20 13:02:34,291 - INFO - Found check status button
+2025-02-20 13:02:39,277 - INFO - Clicked check status button
+2025-02-20 13:02:39,353 - INFO - Selected date: 20-Feb-2025
+2025-02-20 13:02:39,546 - INFO - WebDriver cleaned up successfully
