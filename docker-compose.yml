@@ -60,7 +60,9 @@ services:
     image: redis:7-alpine
     ports:
       - "6379:6379"
-    command: redis-server --maxmemory 512mb --maxmemory-policy allkeys-lru
+    command: redis-server --maxmemory 512mb --maxmemory-policy allkeys-lru --replica-read-only no
+    volumes:
+      - ./redis.conf:/usr/local/etc/redis/redis.conf
     deploy:
       resources:
         limits:

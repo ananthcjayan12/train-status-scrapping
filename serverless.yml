@@ -1,0 +1,34 @@
+service: train-status-scraper
+
+provider:
+  name: aws
+  runtime: python3.9
+  region: us-east-1
+  timeout: 30
+  memorySize: 2048
+  environment:
+    PYTHONPATH: /var/task/src
+    CHROME_BINARY_LOCATION: /opt/chrome/chrome
+    CHROMEDRIVER_PATH: /opt/chromedriver
+
+functions:
+  get_train_status:
+    handler: src.lambda_function.lambda_handler
+    events:
+      - http:
+          path: train-status
+          method: get
+          cors: true
+    layers:
+      - arn:aws:lambda:us-east-1:764866452798:layer:chrome-selenium:1
+
+package:
+  patterns:
+    - '!node_modules/**'
+    - '!venv/**'
+    - '!.env*'
+    - '!docker*'
+    - '!*.sh'
+    - '!*.md'
+    - 'src/**'
+    - 'requirements.txt' 

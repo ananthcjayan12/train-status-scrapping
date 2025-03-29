@@ -5,7 +5,8 @@ import os
 # Redis configuration
 REDIS_HOST = os.getenv('REDIS_HOST', 'redis')
 REDIS_PORT = os.getenv('REDIS_PORT', '6379')
-REDIS_URL = f'redis://{REDIS_HOST}:{REDIS_PORT}'
+REDIS_MASTER_URL = f'redis://{REDIS_HOST}:{REDIS_PORT}'
+REDIS_REPLICA_URL = os.getenv('REDIS_REPLICA_URL', REDIS_MASTER_URL)
 
 # Define exchange and queue
 CELERY_EXCHANGE = Exchange('train_status', type='direct')
@@ -19,14 +20,14 @@ app = Celery(
 
 # Configure Celery
 app.conf.update(
-    # Broker settings
-    broker_url=REDIS_URL,
+    # Broker settings - use master for writing
+    broker_url=REDIS_MASTER_URL,
     broker_connection_retry_on_startup=True,
     broker_connection_max_retries=10,
     broker_pool_limit=None,
 
-    # Backend settings
-    result_backend=REDIS_URL,
+    # Result backend - can use replica for reading results if needed
+    result_backend=REDIS_MASTER_URL,  # Use master for both to be safe
     result_serializer='json',
     result_expires=3600,  # Results expire in 1 hour
     

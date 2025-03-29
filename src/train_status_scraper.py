@@ -33,25 +33,29 @@ logging.basicConfig(
 class TrainStatusScraper:
     """Class to handle train status scraping operations"""
     
-    def __init__(self):
+    def __init__(self, chrome_options=None):
         """Initialize the scraper with Chrome options"""
         self.logger = logging.getLogger(__name__)
         self.base_url = "https://www.confirmtkt.com/train-running-status"
         
-        self.chrome_options = webdriver.ChromeOptions()
-        self.chrome_options.add_argument('--no-sandbox')
-        self.chrome_options.add_argument('--headless')
-        self.chrome_options.add_argument('--disable-dev-shm-usage')
-        self.chrome_options.add_argument('--disable-gpu')
-        self.chrome_options.add_argument('--window-size=1920,1080')
-        self.chrome_options.add_argument('--disable-software-rasterizer')
-        
-        # Set binary location from environment variable
-        chrome_binary = os.getenv('CHROME_BIN', '/usr/bin/chromium')
-        self.chrome_options.binary_location = chrome_binary
+        if chrome_options:
+            self.chrome_options = chrome_options
+        else:
+            # Default options for non-Lambda environment
+            self.chrome_options = webdriver.ChromeOptions()
+            self.chrome_options.add_argument('--no-sandbox')
+            self.chrome_options.add_argument('--headless')
+            self.chrome_options.add_argument('--disable-dev-shm-usage')
+            self.chrome_options.add_argument('--disable-gpu')
+            self.chrome_options.add_argument('--window-size=1920,1080')
+            self.chrome_options.add_argument('--disable-software-rasterizer')
+            
+            # Set binary location from environment variable
+            chrome_binary = os.getenv('CHROME_BIN', '/usr/bin/chromium')
+            self.chrome_options.binary_location = chrome_binary
         
         # Initialize the service with the chromedriver path
-        chromedriver_path = os.getenv('CHROMEDRIVER_PATH', '/usr/bin/chromedriver')
+        chromedriver_path = os.getenv('CHROMEDRIVER_PATH', '/opt/chromedriver')
         self.service = Service(executable_path=chromedriver_path)
         
         # Initialize the driver
