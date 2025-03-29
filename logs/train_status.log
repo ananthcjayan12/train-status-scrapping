@@ -758,3 +758,23 @@ selenium.common.exceptions.WebDriverException: Message: Service /opt/homebrew/bi
 2025-02-20 09:07:22,993 - INFO - 192.168.65.1 - - [20/Feb/2025 09:07:22] "GET /train-status?train_number=13351&day=3 HTTP/1.1" 200 -
 2025-02-20 09:07:40,238 - INFO - 192.168.65.1 - - [20/Feb/2025 09:07:40] "GET /task-status/cb8928b4-6297-4d8e-ae2e-13818c0c7fd8 HTTP/1.1" 200 -
 2025-02-20 09:07:52,059 - INFO - 192.168.65.1 - - [20/Feb/2025 09:07:52] "GET /task-status/e74f7209-4a7d-4713-a0af-118975d462db HTTP/1.1" 200 -
+2025-03-29 05:56:47,751 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.21.0.4:5001
+2025-03-29 05:56:47,752 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 05:57:53,316 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.21.0.5:5001
+2025-03-29 05:57:53,317 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 05:58:28,045 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.21.0.4:5001
+2025-03-29 05:58:28,045 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 05:59:47,684 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.21.0.5:5001
+2025-03-29 05:59:47,685 - INFO - [33mPress CTRL+C to quit[0m
